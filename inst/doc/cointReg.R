@@ -1,5 +1,9 @@
 ## ---- include = FALSE----------------------------------------------------
-knitr::opts_chunk$set(fig.path = "figures/vignette-", fig.width = 5, message = FALSE)
+knitr::opts_chunk$set(fig.path = "figures/vignette-", fig.width = 5,
+                      message = FALSE)
+
+## ---- eval = FALSE-------------------------------------------------------
+#  install.packages("cointReg")
 
 ## ---- eval = FALSE-------------------------------------------------------
 #  devtools::install_github("aschersleben/cointReg", build_vignettes = TRUE)
